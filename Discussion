@@ -150,8 +150,8 @@ LOGIN: 1176 rows
 _____________________________________________________________________________________________
 
 We will use the customers attribute to predict whether they signed up
+How to choose the features for this problem?
 
 Two slices of customer dataset?
 Train = All cliets who signed up -> 868 clients only
 Test = All unsigned clients -> 56709 clients
-
