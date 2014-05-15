@@ -1,0 +1,6 @@
+age.raw <- read.csv("C:/Users/Nandhita/Desktop/Spring2014/CS534 - Machine Learning/Project/user engagement/AGE.csv",stringsAsFactors = FALSE)
+users.raw <- read.csv("C:/Users/Nandhita/Desktop/Spring2014/CS534 - Machine Learning/Project/user engagement/USERS.csv",stringsAsFactors = FALSE)
+assets.raw <- read.csv("C:/Users/Nandhita/Desktop/Spring2014/CS534 - Machine Learning/Project/user engagement/ASSETS_LIABILITIES.csv",stringsAsFactors = FALSE)
+email.raw <- read.csv("C:/Users/Nandhita/Desktop/Spring2014/CS534 - Machine Learning/Project/user engagement/EMAIL_PREF.csv",stringsAsFactors = FALSE)
+logins.raw <- read.csv("C:/Users/Nandhita/Desktop/Spring2014/CS534 - Machine Learning/Project/user engagement/LOGINS.csv",stringsAsFactors = FALSE)
+data = cbind(age.raw, users.raw, assets.raw, email.raw, logins.raw)
